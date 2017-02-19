@@ -2,20 +2,34 @@
 <html>
 	<head>
 		<style>
-
+p {display: inline}
 		</style>
 	</head>
 
 	<body>
-		<input name="Name">
-		<button name="find">Bul</button>
+		<input name="Name" onkeyup="degistir()">
+		<button name="find">Bul</button><br><br>
 		<form>
-			<input type="radio" name="how" value="tumu" checked>
-			Tumunde ara <br>
-			<input type="radio" name="how" value="yalnizKendi">
-			Sadece yazdigimi ara <br>
-			<input type="radio" name="how" value="NumGore">
-			Numaraya gore ara <br>
+			<input type="radio" name="how" 
+			onclick="deneme()" value="tumu" checked>
+			<p name="T_A">Tumunde ara </p><br>
+			
+			<input type="radio" name="how" 
+			onclick="deneme()" value="yalnizKendi">
+			<p name="Y_A">Sadece yazdigimi ara</p> <br>
+			
+			<input type="radio" name="how" 
+			onclick="deneme()" value="NumGore">
+			<p name="N_A">Numaraya gore ara</p> <br>
+
+
+			<script>
+
+function degistir(){
+
+}
+
+			</script>
 	</body>
 
 </html>
