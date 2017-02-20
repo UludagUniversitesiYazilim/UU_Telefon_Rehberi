@@ -7,26 +7,31 @@ p {display: inline}
 	</head>
 
 	<body>
-		<input name="Name" onkeyup="degistir()">
-		<button name="find">Bul</button><br><br>
+		<input id="Name" onkeyup="degistir()">
+		<button id="find">Bul</button><br><br>
 		<form>
 			<input type="radio" name="how" 
 			onclick="deneme()" value="tumu" checked>
-			<p name="T_A">Tumunde ara </p><br>
+			<p id="T_A">Tumunde ara </p><br>
 			
 			<input type="radio" name="how" 
 			onclick="deneme()" value="yalnizKendi">
-			<p name="Y_A">Sadece yazdigimi ara</p> <br>
+			<p id="Y_A">Sadece yazdigimi ara</p> <br>
 			
 			<input type="radio" name="how" 
 			onclick="deneme()" value="NumGore">
-			<p name="N_A">Numaraya gore ara</p> <br>
+			<p id="N_A">Numaraya gore ara</p> <br>
 
 
 			<script>
 
 function degistir(){
+	var inInput = document.getElementById("Name").value;
 
+	document.getElementById("T_A").innerHTML = "Icinde '"+inInput+"' geceni ara";
+	document.getElementById("Y_A").innerHTML = "Yalnizca '"+inInput+"' kelimesini ara";
+	console.log("ran");
+	return 0;
 }
 
 			</script>
