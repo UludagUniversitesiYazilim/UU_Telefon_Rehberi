@@ -23,7 +23,7 @@ Uludağ Üniversitesi'nin dahili hatlarının sorgulanabilineceği, ekleme ve ç
 Geliştiriciler tarafından yazılan, kullanıcının görmeyeceği, kodların tümüdür.
 Genel akış şu biçimdedir:
 
-<p align="center" >![Akış yolu](./_resim/readme_1.png)</p>
+![Akış yolu](./_resim/readme_1.png)
 
 Sunucu makinede (Bu normal bir bilgisayar da olabilir.) tüm dosyalar bulunur. Bu dosyalar:
 * Html dosyası
