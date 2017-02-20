@@ -41,7 +41,7 @@ Kullanıcı kendi bilgisayarında (istemci) web sitesini açınca sunucudan iste
  1. Normal kullanıcı
  2. Yönetici yetkisine sahip kullanıcı
 
- ### Normal Kullanıcı:
+### Normal Kullanıcı:
 
  Yalnızca sorgulama yetkisine sahip kullancıdır. İstediği ismi girer ve numaranın ona iletilmesini bekler. Kullanıcı:
 
@@ -51,7 +51,7 @@ Kullanıcı kendi bilgisayarında (istemci) web sitesini açınca sunucudan iste
 
  seçenekler olacaktır.
 
- ### Yönetici Kullanıcı:
+### Yönetici Kullanıcı:
 
  Sorgulama, ekleme, değiştirme ve silme yetkilerine sahip kullanıcıdır. Veritabanındaki numara tablosu içinde tüm yetkilere sahiptir. Şifre tablosuna erişemez.
 
