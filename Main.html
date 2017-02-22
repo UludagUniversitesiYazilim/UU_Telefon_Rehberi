@@ -2,26 +2,71 @@
 <html>
 	<head>
 		<style>
+body {
+    margin: 0;
+}
 p {display: inline}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 200px;
+	background-color: #E0E0F8;
+	position: fixed;
+	height: 100%;
+	overflow: auto;
+}
+a{
+	display: block;
+	color: #8000FF;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+a:hover:not(active){
+	background-color : #8000FF;
+	color: white;
+}
+div {
+	margin-left:205px;
+	padding:1px 16px;
+	margin-top: 100px;
+	align: center;
+}
+button{
+	width: 130px;
+}
+#Name {
+	width:300px;
+	margin-left: auto;
+	margin-right: auto;
+	align-items: baseline;
+}
 		</style>
 	</head>
 
 	<body>
-		<input id="Name" onkeyup="degistir()">
-		<button id="find">Bul</button><br><br>
-		<form>
-			<input type="radio" name="how" 
-			onclick="deneme()" value="tumu" checked>
-			<p id="T_A">Tumunde ara </p><br>
-			
-			<input type="radio" name="how" 
-			onclick="deneme()" value="yalnizKendi">
-			<p id="Y_A">Sadece yazdigimi ara</p> <br>
-			
-			<input type="radio" name="how" 
-			onclick="deneme()" value="NumGore">
-			<p id="N_A">Numaraya gore ara</p> <br>
+		<ul>
+			<li><a href="#go.html">İsim sorgulama</a></li>
+			<li><a href="#come">Yönetici girişi</a></li>
+			<li><a href="#come">Hakkında</a></li>
+		</ul>
+		<div>
+			<input id="Name" onkeyup="degistir()">
+			<button id="find">Bul</button><br><br>
+			<form>
+				<input type="radio" name="how"
+				onclick="deneme()" value="tumu" checked>
+				<p id="T_A">Tumunde ara </p><br>
 
+				<input type="radio" name="how"
+				onclick="deneme()" value="yalnizKendi">
+				<p id="Y_A">Sadece yazdigimi ara</p> <br>
+
+				<input type="radio" name="how"
+				onclick="deneme()" value="NumGore">
+				<p id="N_A">Numaraya gore ara</p> <br>
+		</div>
 
 			<script>
 
